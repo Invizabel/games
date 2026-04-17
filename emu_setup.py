@@ -1,5 +1,4 @@
 import os
-import urllib.request
 
 os.system("sudo apt update && sudo apt install p7zip-full wget nginx git")
 os.system("wget https://raw.githubusercontent.com/Invizabel/Scripts/refs/heads/main/Setup/docker_ubuntu.py")
