@@ -1,5 +1,6 @@
 import os
 
+os.system("sudo apt update && sudo apt install nginx git -y")
 os.mkdir("emu")
 os.chdir("emu")
 os.system("git clone https://github.com/ppeccin/javatari.js")
