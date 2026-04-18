@@ -10,6 +10,9 @@
 * PlainChess (Chess)
 * Minecraft (Classic)
 
+#### Life Style:
+* Mealie (Food)
+
 ###### Please Note:
 * These projects will work with Ubuntu Linux.
 * You will need a separate nginx server for each service.
