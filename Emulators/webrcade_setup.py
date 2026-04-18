@@ -1,7 +1,7 @@
 import os
 
-os.mkdir("emu")
-os.chdir("emu")
+os.mkdir("app")
+os.chdir("app")
 os.system("sudo apt update && sudo apt install wget nginx -y")
 os.system("wget https://raw.githubusercontent.com/Invizabel/HomeLab/refs/heads/main/Assets/webrcade.html")
 os.system("wget https://raw.githubusercontent.com/Invizabel/Scripts/refs/heads/main/Setup/docker_ubuntu.py")
