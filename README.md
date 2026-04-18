@@ -1,4 +1,4 @@
-## Script that allows you to download web based games and host them locally.
+## Scripts that allows you to download web based games and host them locally.
 
 ##### Emulators:
 * SWOTGB (Gameboy)
@@ -11,6 +11,6 @@
 * Minecraft (Classic)
 
 ###### Please Note:
-* This project will work with Debian Linux based distros.
-* You will need three separate nginx servers to host these each game/emulator.
+* This project will work with Ubuntu Linux.
+* You will need a separate nginx server for each game/emulator.
 * If you plan on hosting more than one, I recommend checking out proxmox: https://www.proxmox.com
