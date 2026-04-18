@@ -1,10 +1,10 @@
 import os
 import urllib.request
 
-os.system("sudo apt update && sudo apt install nginx -y")
+os.mkdir("app")
+os.chdir("app")
 
-os.mkdir("classic")
-os.chdir("classic")
+os.system("sudo apt update && sudo apt install nginx -y")
 
 if not os.path.exists("assets"):
     os.mkdir("assets")
