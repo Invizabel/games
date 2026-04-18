@@ -13,7 +13,7 @@
 #### Lifestyle:
 * Mealie (Food)
 
-#### Tools:
+#### Utilities:
 * Draw.IO (Diagramming)
 
 ###### Please Note:
