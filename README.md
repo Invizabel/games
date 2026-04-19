@@ -23,5 +23,5 @@
 * Forgejo (Git)
 
 ###### Please Note:
-* These projects are designed to work with Ubuntu Linux. No other operating systems are supported.
+* These projects are designed to work with Ubuntu Linux. No other operating systems are supported at this time.
 * If you plan on hosting more than one, I recommend checking out proxmox: https://www.proxmox.com
