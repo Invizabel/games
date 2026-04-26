@@ -15,6 +15,7 @@
 
 #### Utilities:
 * Draw.IO (Diagramming)
+* Uptime Kuma (Server Monitoring)
 
 #### Game Servers:
 * Java (Minecraft Java)
