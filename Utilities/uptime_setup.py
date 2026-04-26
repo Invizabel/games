@@ -28,6 +28,9 @@ conf = """server {
     # return 301 https://$host$request_uri;
 }"""
 
+with open("uptime-kuma.conf","w") as file:
+    file.write(conf)
+
 os.mkdir("app")
 os.chdir("app")
 os.system("sudo apt update")
@@ -37,10 +40,10 @@ os.system("sudo apt update && sudo apt install -y git")
 os.system("git clone https://github.com/louislam/uptime-kuma.git")
 os.chdir("uptime-kuma")
 os.system("npm run setup")
-os.system("npm install pm2 -g ")
-os.system("pm2 install pm2-logrotate")
+os.system("sudo npm install -g pm2"")
+os.system("sudo pm2 install pm2-logrotate")
 os.system("pm2 start server/server.js --name uptime-kuma")
-os.system("pm2 startup")
+os.system("sudo pm2 startup")
 os.system("sudo apt install nginx -y")
-os.system("bash -c \"cat << 'EOF' > /etc/nginx/conf.d/uptime-kuma.conf\n" + conf + "\nEOF\"")
+os.system("sudo mv uptime-kuma.conf /etc/nginx/conf.d/uptime-kuma.conf")
 os.system("sudo systemctl restart nginx")
