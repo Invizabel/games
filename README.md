@@ -12,6 +12,7 @@
 
 #### Lifestyle:
 * Mealie (Food)
+* FreshRSS (News Feed)
 
 #### Utilities:
 * Draw.IO (Diagramming)
